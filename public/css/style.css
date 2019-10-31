@@ -1,0 +1,12 @@
+.navbar.navbar-inverse { margin: 0; padding:10px 0; border-radius: 0px; position: fixed; width: 100%; left: 0; top: 0;z-index: 1199;}
+.navbar-inverse .navbar-nav > li { margin:0 16px;}
+.navbar-inverse .navbar-nav > li > a { padding: 0; position: relative;}
+.navbar-inverse .navbar-nav > li > a::after { content: ""; background-color: transparent; height: 2px; width: 0px; position: absolute; bottom:-6px; left: 0; transition: all .2s ease-in-out;} 
+.navbar-inverse .navbar-nav > li > a:hover::after,
+.navbar-inverse .navbar-nav > li.active > a::after {width: 100%; background-color: #fff;}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus { background-color: transparent;}
+.navbar-nav{ margin: 14px 0;}
+.content   { padding-top:100px; }
+.modal { z-index: 111111;}
